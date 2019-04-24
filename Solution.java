@@ -8,7 +8,7 @@ public class Solution {
 	private static int totalWeight_MST;
 
 	/**
-	 * Find the node outside the current MST with minimum key value, that can be
+	 * Find the node outside the current MST with minimum key value that can be
 	 * reached from the nodes already included in the MST.
 	 */
 	private static int minimumKey(boolean[] nodes_MST, int[] minimumKeys, int numberOfNodes, int startNode) {
