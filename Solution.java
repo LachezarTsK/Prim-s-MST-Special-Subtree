@@ -68,7 +68,7 @@ public class Solution {
 	 */
 	private static void initializeGraph(int numberOfNodes) {
 		/**
-		 * 1 <= value of nodes <= numberOfNodes
+		 * 1 <= value of a node <= numberOfNodes.
 		 */
 		graph = new int[numberOfNodes + 1][numberOfNodes + 1];
 
