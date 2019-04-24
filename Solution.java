@@ -7,6 +7,10 @@ public class Solution {
 	private static int[] parent;
 	private static int totalWeight_MST;
 
+	/**
+	 * Find the next node outside the current MST, that can be reached from the
+	 * nodes already included in the MST and at a minimum weight cost of its edge.
+	 */
 	private static int minimumKey(boolean[] nodes_MST, int[] minimumKeys, int numberOfNodes, int startNode) {
 		int value_minimumKey = Integer.MAX_VALUE;
 		int index_minimumKey = 0;
